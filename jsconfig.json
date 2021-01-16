@@ -9,6 +9,7 @@
   },
   "include": [
     "src/*.js",
+    "src/*.d.ts",
     "test/*.js",
     "_types/**/*.d.ts"
   ]

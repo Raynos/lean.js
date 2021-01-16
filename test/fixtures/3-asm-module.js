@@ -10,7 +10,7 @@ function asmModule(stdlib, foreign, heap) {
   function complexCalculation(size, factor) {
     size = size|0;
     factor = +factor
-    ...
+    // ...
   }
 
   // export function

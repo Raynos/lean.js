@@ -7,6 +7,7 @@
     "module": "commonjs",
     "allowJs": true,
     "checkJs": true,
+    "noUncheckedIndexedAccess": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,

@@ -29,18 +29,22 @@
   ],
   "tsdocstandard": {
     "ignore": [
-      "test/fixtures/*.js"
+      "test/fixtures/*.js",
+      "src/*.d.ts"
     ]
   },
   "binDependencies": {
-    "tsdocstandard": "16.1.0",
+    "tsdocstandard": "16.2.0",
     "type-coverage": "2.13.3",
-    "typescript": "4.0.3"
+    "typescript": "4.1.3"
   },
   "devDependencies": {
     "@pre-bundled/tape": "4.11.0",
     "@types/node": "14.14.21",
     "npm-bin-deps": "1.10.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "4.13.0",
+    "typescript": "4.1.3"
+  }
 }
