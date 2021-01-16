@@ -27,6 +27,11 @@
       "url": "http://github.com/Raynos/lean.js/raw/master/LICENSE"
     }
   ],
+  "tsdocstandard": {
+    "ignore": [
+      "test/fixtures/*.js"
+    ]
+  },
   "binDependencies": {
     "tsdocstandard": "16.1.0",
     "type-coverage": "2.13.3",
