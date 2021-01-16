@@ -1,0 +1,15 @@
+{
+  "extends": "./_types/base-tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@pre-bundled/tape": ["./_types/pre-bundled__tape"],
+      "*" : ["./_types/*"]
+    }
+  },
+  "include": [
+    "src/*.js",
+    "test/*.js",
+    "_types/**/*.d.ts"
+  ]
+}
